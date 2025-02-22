@@ -1,3 +1,173 @@
 To create HTML website. We need to name the file as index.html 
 We type html and automatically we get a structure. In the structure we change add to the body.
 The body we divide it by divs and to create a line bigger we add the h1 
+You can have divs inside other divs. 
+<h1>ALUVIYER: Taller de Aluminio y Vidrio</h1> para hacerlo mas grande 
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <div id="my logo">ALUVIYER</div>
+                <div>Taller de aluminio y vidrio</div>
+            </div>
+            <div id="panel">VENTANAS</div>
+
+            <div id="panel2">PUERTAS</div>
+            <main id="body">VITRINAS </main>
+            <div id="footer">PASAMANOS</div>
+        </div>
+    </body>
+</html>
+
+
+!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="col1">col1</div>
+            <div id="col2">col2</div>
+        </div>
+        <div id="col3">col3</div>
+    </body>
+</html>
+
+For style.css 
+
+#container{
+    background-color: rgb(0, 247, 255);
+
+}
+
+#col1{
+    background-color: aquamarine;
+    width: 30%;
+}
+
+#col2{
+    background-color: blueviolet;
+    width:40%;
+
+
+}
+#col3{
+
+    background-color: brown;
+    width:50%;
+}
+
+
+/*   */
+
+To use flex
+
+on the style css we say 
+
+#container {
+
+    display:flex;
+    justify-content: space-between; 
+    width: 80%;
+    margin:0 auto;
+
+    }
+
+#container {
+
+    /*By default Flex makes the items go next by each other */
+
+    display:flex;
+    justify-content: space-between; 
+    width: 80%;
+    margin:0 auto;
+
+    }
+
+#Trending {
+
+    display:flex;
+    flex-direction:column;
+    gap: 10px;
+
+
+
+}  
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    </head>
+    <body>
+        <div id="container">
+            <div id="Trending">
+                <div>#POLITICS</div>
+                <div>#SERIES</div>
+                <div>#ECONOMICS</div>
+            </div>
+            <div>MAIN</div>
+            <div>SIDE BAR </div>
+            
+    </body>
+</html>
+
+
+
+### DESCARGAR BOOTSTRAP
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                Column
+              </div>
+              <div class="col">
+                Column
+              </div>
+              <div class="col">
+                Column
+              </div>
+            </div>
+          </div>
+    </body>
+</html>
+
+
+
+
+
